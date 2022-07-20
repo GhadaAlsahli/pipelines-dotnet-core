@@ -5,7 +5,7 @@ pipeline {
         AWS_SECRET_ACCESS_KEY = credentials('class-jenkins-aws-secret-access-key')
         AWS_S3_BUCKET = "dotnetghada"
         ARTIFACT_NAME = "hello-world.dll"
-        AWS_EB_APP_NAME = "ghadadotnet"
+        AWS_EB_APP_NAME = "Ghada_dotnet"
         AWS_EB_APP_VERSION = "${BUILD_ID}"
         AWS_EB_ENVIRONMENT = "ghadadotnet-env"
     }
